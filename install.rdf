@@ -15,8 +15,8 @@
 		<em:name>Xulu</em:name>
 		<em:version>0.1</em:version>
 		<em:description>.NET JavaScript Framework for Mozilla</em:description>
-		<em:creator>neil.stansbury@neilstansbury.com</em:creator>
-		<em:developer>neil.stansbury@neilstansbury.com</em:developer>
+		<em:creator>neil@neilstansbury.com</em:creator>
+		<em:developer>neil@neilstansbury.com</em:developer>
 		<em:homepageURL>http://neilstansbury.com/xulu/</em:homepageURL>
 		
 	</Description>
