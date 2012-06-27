@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+
+		<em:targetApplication>
+			<Description>
+				<em:id>toolkit@mozilla.org</em:id>
+				<em:minVersion>2.0.*</em:minVersion>
+				<em:maxVersion>11.0.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		
+		<em:id>xulu@neilstansbury.com</em:id>
+		<em:name>Xulu</em:name>
+		<em:version>0.1</em:version>
+		<em:description>.NET JavaScript Framework for Mozilla</em:description>
+		<em:creator>neil.stansbury@neilstansbury.com</em:creator>
+		<em:developer>neil.stansbury@neilstansbury.com</em:developer>
+		<em:homepageURL>http://neilstansbury.com/xulu/</em:homepageURL>
+		
+	</Description>
+
+</RDF>
