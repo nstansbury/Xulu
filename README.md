@@ -130,12 +130,12 @@ stream.Close();
 ```
 Outputs the following XML:
 
-<?xml version="1.0" encoding="UTF-8"?>
-<soap:Envelope soap:soapAction="MySoapAction" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-  <soap:Header/>
-  <soap:Header/>
-  <soap:Body xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">SOAP Body value</soap:Body>
-</soap:Envelope>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <soap:Envelope soap:soapAction="MySoapAction" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+      <soap:Header/>
+      <soap:Header/>
+      <soap:Body xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">SOAP Body value</soap:Body>
+    </soap:Envelope>
 
 Create and send SOAP requests by converting a JavaScript object into a web services proxy.
 ```javascript
@@ -181,4 +181,4 @@ webService.MyWebMethod( message, null );
 ```
 The Xulu Framework is available under the MPL/GPL and can be downloaded here. Unzip the download into you Mozilla application's directory and add this line to a XUL file to import:
 
-<script type="text/javascript;e4x=1" src="resource://xulu/loader.js"/>
+    <script type="text/javascript;e4x=1" src="resource://xulu/loader.js"/>
