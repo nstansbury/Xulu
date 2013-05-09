@@ -70,12 +70,12 @@ var cmd = cnn.CreateCommand();
 cmd.CommandText = "SELECT * FROM something";
 var callback = new System.AsyncCallback( callbackHandler );
 var result = cmd.BeginExecuteReader( callback, cmd );
-'''
+```
 Enumerate all *.js files in the current Directory:
 ```javascript
 System.Import( "System.IO" );
 var files = System.IO.Directory.GetFiles( "path_to_dir", ".js", TopDirectoryOnly );
-'''
+```
 Get a FileStream:
 ```javascript
 System.Import( "System.IO" );
@@ -91,7 +91,7 @@ System.Import( "System.Resources" );
 				
 var rm = new ResourceManager( "baseName", "chromeName" );
 var str = rm.GetString( "SomeResourceProperty" );
-'''
+```
 Using the XmlWriter:
 ```javascript
 System.Import( "System.Xml" );
@@ -127,7 +127,7 @@ var buf = [];
 stream.Read( buf, 0, -1 );
 Console.WriteLine( buf );
 stream.Close();
-'''
+```
 Outputs the following XML:
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -178,7 +178,7 @@ XmlTypeAttribute( message, { TypeName : "MyWebMethodMessage", Namespace : "http:
 var webService = new MyWebService();
 webService.Url = "http://host.domain.com:8080/soap";  
 webService.MyWebMethod( message, null );
-'''
+```
 The Xulu Framework is available under the MPL/GPL and can be downloaded here. Unzip the download into you Mozilla application's directory and add this line to a XUL file to import:
 
 <script type="text/javascript;e4x=1" src="resource://xulu/loader.js"/>
