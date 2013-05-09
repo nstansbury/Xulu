@@ -84,7 +84,7 @@ var fileStream = System.IO.File.OpenRead( "Path_to_file" );
 var contents = [];
 fileStream.Read( contents, 0, null );
 fileStream.Close();
-'''
+```
 The equivilent of using the Mozilla string bundle:
 ```javascript
 System.Import( "System.Resources" );
