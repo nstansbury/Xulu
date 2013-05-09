@@ -1,4 +1,4 @@
-Xulu™ - A .NET JavaScript framework for the Mozilla Platform
+A .NET JavaScript framework for the Mozilla Platform
 ========
 Xulu™ is a JavaScript framework that emulates the Microsoft .NET 3.5 namespaces, classes & methods on the Mozilla platform via JavaScript and XPConnect. It does so without installing 3rd party libraries such as Mono. This involves wrapping native XPCOM and Mozilla Javascript methods into a .NET 3.5 compatible JavaScript namespace. Where possible the same exceptions are thrown too.
 Why?
